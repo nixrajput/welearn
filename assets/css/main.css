@@ -1,0 +1,90 @@
+body.sign-in-body {
+    background-color: #f4f4f4;
+}
+
+.container.sign-in-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.card.sign-in-card {
+    background-color: #Fff;
+    padding: 40px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 0 16px rgba(0, 0, 0, .25);
+    -o-box-shadow: 0 0 16px rgba(0, 0, 0, .25);
+}
+
+h1.large-text {
+    text-align: center;
+    font-weight: bold;
+    color: royalblue;
+    display: block;
+    margin: auto;
+}
+
+h6.subtitle-text {
+    text-align: center;
+    line-height: 0.5;
+    color: #000;
+    display: block;
+    margin: auto;
+}
+
+h3.form-name-text {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: 30px 0 40px;
+    text-transform: uppercase;
+}
+
+form.sign-in-form {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+input {
+    text-align: center;
+}
+
+a.forgot-text {
+    text-align: center;
+    display: block;
+    padding: 0 0 20px;
+}
+
+input.sign-in-btn {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: royalblue;
+    width: 100%;
+    font-weight: bold;
+}
+
+input.sign-in-btn:hover {
+    background-color: slateblue;
+    color: #fff;
+}
+
+a.create-account-text {
+    text-align: center;
+    display: block;
+    padding: 20px 0 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+.section-light {
+    background-color: #eceeef;
+}
