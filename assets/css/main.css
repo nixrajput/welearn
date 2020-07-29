@@ -2,6 +2,10 @@ body.sign-in-body {
     background-color: #f4f4f4;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 .container.sign-in-container {
     position: absolute;
     top: 50%;
@@ -87,4 +91,27 @@ a.create-account-text {
 
 .section-light {
     background-color: #eceeef;
+    padding: 0 0 10%;
+}
+
+.footer.footer-1 {
+    margin: auto;
+    display: block;
+    padding: 20px 0;
+}
+
+.social-icons {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+p.footer-text {
+    text-align: center;
+    color: #FFF;
+}
+
+.fa {
+    color: #fff;
+    margin: 8px;
 }
